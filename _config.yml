@@ -1,0 +1,24 @@
+title:              Brandon's Blog
+email:              trustyou860@gmail.com
+description:        Fake it until you make it.
+author:             Brandon
+baseurl:            "/blog"
+url:                "https://tros03.github.io"
+
+# Social Profiles
+twitter_username:   
+github_username:    tros03
+facebook_username:  
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
